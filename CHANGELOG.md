@@ -1,4 +1,4 @@
-# CHANGELOG 03/--/2021
+# CHANGELOG 03/19/2021
 
 ## Bug Fixes
 - Fixed a bug where players would spawn with nothing when they leave after dying or they join for the first time.
