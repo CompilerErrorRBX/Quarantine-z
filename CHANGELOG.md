@@ -15,6 +15,7 @@
 - Fixed a bug where players could switch off of a grenade before throwing it and it would still throw the grenade.
 - Fixed a bug where the /graphics command wasn’t working.
 - Fixed a bug where players could block interactions causing players to close container interactions.
+- Fixed a bug where corpses would occasionally be unlootable.
 - Minor bug fixes.
 
 ## Improvements/Changes
