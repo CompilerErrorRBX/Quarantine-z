@@ -10,7 +10,6 @@
 - Fixed a bug where the combat timer was incorrectly set to 30 instead of 60 when actually hitting a player with a bullet. 30 seconds should be the “near-miss” combat timer.
 - Fixed a bug where the camera would clip through or partially into objects that were very close to it or your character.
 - Fixed a bug where tooltips would not display correctly when moving your mouse between slots and other UI.
-- Fixed a bug where cars could run on no fuel and would be silent.
 - Fixed a bug where when throwing a grenade and switching before the grenade threw would remove whatever equipment you switched to.
 - Fixed a bug where players could switch off of a grenade before throwing it and it would still throw the grenade.
 - Fixed a bug where the /graphics command wasn’t working.
