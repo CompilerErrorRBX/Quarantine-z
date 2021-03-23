@@ -16,6 +16,7 @@
 - Fixed a bug where the /graphics command wasn’t working.
 - Fixed a bug where players could block interactions causing players to close container interactions.
 - Fixed a bug where corpses would occasionally be unlootable.
+- Fixed a bug where new players would spawn with no items.
 - Minor bug fixes.
 
 ## Improvements/Changes
