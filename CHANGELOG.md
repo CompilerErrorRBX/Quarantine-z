@@ -1,51 +1,10 @@
 ## Bug Fixes
-- Fixed a bug where players would spawn with nothing when they leave after dying or they join for the first time.
-- Fixed a bug where weapon attachments and ammo didn’t save inside of small storage chests.
-- Fixed a bug where containers didn’t have items until after the first respawn.
-- Fixed a bug where players would spawn before they had completely loaded.
-- Fixed a bug where building placements went in the wrong spot once placed.
-- Fixed a bug where dropping an item that was in use would break all item use.
-- Fixed a bug where dead players would get a rejoin penalty when leaving the game while in combat.
-- Fixed a bug where doors would be in the wrong spot when the server restarted while they were opened.
-- Fixed a bug where the combat timer was incorrectly set to 30 instead of 60 when actually hitting a player with a bullet. 30 seconds should be the “near-miss” combat timer.
-- Fixed a bug where the camera would clip through or partially into objects that were very close to it or your character.
-- Fixed a bug where tooltips would not display correctly when moving your mouse between slots and other UI.
-- Fixed a bug where when throwing a grenade and switching before the grenade threw would remove whatever equipment you switched to.
-- Fixed a bug where players could switch off of a grenade before throwing it and it would still throw the grenade.
-- Fixed a bug where the /graphics command wasn’t working.
-- Fixed a bug where players could block interactions causing players to close container interactions.
-- Fixed a bug where corpses would occasionally be unlootable.
-- Fixed a bug where new players would spawn with no items.
+- Fixed a bug where grenades would sometimes go through the ground.
+- Fixed a bug where grenades would cause you to lose an equipped item if you switched to another equipped item while throwing it.
+- Fixed a bug where items would repair when using `Take All` on a container.
+- Fixed a bug where when unequipping the flash grenade it would make an explosion sound.
+- Fixed a bug where walking slowly would make you completely silent.
 - Minor bug fixes.
 
 ## Improvements/Changes
-- Equipped clothing can now be shredded.
-- Item contexts (right clicking) now available within containers.
-- Cleaned up loading logic.
-- When attempting to place a building in an invalid location the building action is no longer cancelled.
-- When placing building objects, if you have more of that object in your inventory it will automatically select the next to place.
-- You can now click on a placeable item to start placing it.
-- Players always have a map now. (GPS coming soon for explorer game pass purchasers)
-- Improved the metal sheet icon.
-- 7.62x51mm ammo name changed to 7.62 NATO
-- While interacting with a container and clicking on an item in your inventory, that full item stack will now be moved into the container, holding Shift will move only a single item from the stack.
-- Buffed AR15 bullet velocity from 2000 to 2250.
-- Buffed M4A1 bullet velocity from 2000 to 2250.
-- Buffed SCAR bullet velocity from 2000 to 2250.
-
-## New Content
-- Added no build zones around key POIs.
-- Added building type toggle with Q/E.
-- Added item pickup sounds.
-- Added item equip sounds.
-- Added a Take All button to containers.
-- Added a small wooden platform for building on.
-- Added wooden stairs that attach to a platform.
-- Added a wooden ramp to attach to a platform.
-- Added wooden wall.
-- Added wooden doorway wall.
-- Added wooden garage doorway wall.
-- Added wooden window wall.
-- Added wooden half wall.
-- Added wooden garage door.
-- Added an ingame changelog (Press “I” to open)
+- Player bleedouts are now counted as kills.
