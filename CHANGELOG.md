@@ -1,10 +1,10 @@
 ## Bug Fixes
-- Fixed a bug where grenades would sometimes go through the ground.
-- Fixed a bug where grenades would cause you to lose an equipped item if you switched to another equipped item while throwing it.
-- Fixed a bug where items would repair when using `Take All` on a container.
-- Fixed a bug where when unequipping the flash grenade it would make an explosion sound.
-- Fixed a bug where walking slowly would make you completely silent.
+- Fixed a bug where duffle bags wouldn't spawn.
+- Fixed a bug where brown fanny packs wouldn't spawn.
+- Fixed a bug where some landmines and beartraps wouldn't disappear after being triggered.
+- Fixed a bug where landmines would kill you instantly.
+- Fixed a few issues with the fog not being set correctly.
 - Minor bug fixes.
 
 ## Improvements/Changes
-- Player bleedouts are now counted as kills.
+- Beartraps and Landmines have 1 HP now.
